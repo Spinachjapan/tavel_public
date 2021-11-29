@@ -1,0 +1,288 @@
+.fontsize8 {
+    font-size: 32px;
+}
+
+.fontsize7 {
+    font-size: 26px;
+}
+
+.fontsize6-5 {
+    font-size: 23px;
+}
+
+.fontsize6 {
+    font-size: 19px;
+}
+
+.fontsize5 {
+    font-size: 17px;
+}
+
+.fontsize4 {
+    font-size: 15px;
+}
+
+.red_word {
+    color: #ff0000;
+}
+
+.green_word {
+    color: rgb(4, 184, 49);
+}
+
+.yellow_word {
+    color: rgb(255, 230, 0);
+}
+
+.orange_word {
+    color: #ff9100;
+}
+
+img {
+    object-fit: cover;
+}
+
+.no_dec_button {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0;
+}
+
+.common_size_photo {
+    height: 80px;
+    width: 80px;
+}
+
+.small_photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.menu_bar {
+    height: 80px;
+}
+
+.side_borders {
+    border-left: 2px solid #dfdfdf;
+    border-right: 2px solid #dfdfdf;
+}
+
+.breake {
+    word-wrap: break-word;
+}
+
+.follower_ing {
+    border-color: #ff9100;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #ff9100;
+
+    width: 145px;
+}
+
+.add_good {
+    border-color: #ff9100;
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #ff9100;
+}
+
+.remove_good {
+    border-color: rgb(190, 190, 190);
+    outline: none;
+    background: transparent;
+    border: none;
+    color: #ff9100;
+}
+
+.article_button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ff9100;
+    padding: 0px;
+}
+
+.menue_button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #ffffff;
+    padding: 0px;
+}
+
+.article_button:active {
+    background-color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9100;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.filesend {
+    display: none;
+}
+
+.username {
+    color: rgb(131, 130, 130);
+}
+
+.textfield {
+    border: 2px #ff9100 solid;
+}
+
+.textarea {
+    border: 2px solid #ff9100;
+    width: 100%;
+}
+
+.orangebutton {
+    background-color: #ff9100;
+    color: white;
+}
+
+.delete_button {
+    background-color: #ff0000;
+    color: white;
+}
+
+.normal_photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.big_photo {
+    width: 250px;
+    height: 250px;
+}
+
+select {
+    width: 100px;
+}
+
+.storybook-button {
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    padding: 4px 12px;
+    font-size: 13px;
+}
+.storybook-button--primary {
+    color: white;
+    background-color: #1ea7fd;
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        /* background-color: #00FFFF; */
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        /* background-color: #FF0000;  */
+        width: auto;
+        font-size: 90%;
+    }
+
+    .normal_photo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+
+    .big_photo {
+        width: 600px;
+        height: 600px;
+    }
+
+    .photo_group {
+        overflow: auto;
+        scroll-snap-type: x;
+        display: flex;
+    }
+    .area {
+        scroll-snap-align: start;
+        height: 65vh;
+        width: 100vw;
+        flex: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        /* background-color: #00FF00;  */
+        width: auto;
+        font-size: 80%;
+    }
+
+    .photo_group {
+        overflow: auto;
+        scroll-snap-type: x;
+        display: flex;
+    }
+    .area {
+        scroll-snap-align: start;
+        height: 45vh;
+        width: 100vw;
+        flex: none;
+    }
+
+    .normal_photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .big_photo {
+        width: 320px;
+        height: 320px;
+    }
+
+    .fontsize7 {
+        font-size: 23px;
+    }
+
+    .fontsize6-5 {
+        font-size: 21px;
+    }
+
+    .fontsize6 {
+        font-size: 17px;
+    }
+
+    .fontsize5 {
+        font-size: 15px;
+    }
+
+    .fontsize4 {
+        font-size: 13px;
+    }
+}
