@@ -64,8 +64,6 @@ This program is licenced from Kohei Kaburaki under MIT license.
 Copyright (c) 2021: Kohei Kaburaki
 Released Under The MIT License
 
-<!-- git clone https://github.com/Spinachjapan/Spinach_BirthdayTracker.git -->
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
