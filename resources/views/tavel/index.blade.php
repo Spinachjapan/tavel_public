@@ -63,14 +63,6 @@ ob_start();
 
 
   </nav>
-
-
- <a href="https://t.cfjump.com/75249/b/173088" referrerpolicy="no-referrer-when-downgrade" rel="nofollow noindex" target="_blank" onmousedown="this.rel = 'nofollow noindex';">
- <span class="fontsize4">Japanese products online store↓↓</span><br><img style="border: none; vertical-align: middle;" alt="" referrerpolicy="no-referrer-when-downgrade" loading="lazy" src="https://t.cfjump.com/75249/a/173088" />
- 
-</a>
-
-
          
 
         </header>
